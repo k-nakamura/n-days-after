@@ -42,7 +42,7 @@ function AfterDateList({strDate}) {
 
   const DateList = () => {
     const days = dateList.map((d, i) => (
-      <div className={'flex flex-row border-b-gray-400 border-b py-4 text-2xl'}>
+      <div className={'flex flex-row border-b-gray-400 border-b py-4 sm:text-2xl'}>
         <div className={'basis-1/4 text-right'}>
           {Math.pow(10, i)} 日後
         </div>
@@ -73,7 +73,7 @@ function AfterDateList({strDate}) {
   }
 
   return (
-    <div className={'pt-6 xl:px-64 lg:px-52 md:px-20 sm:px-6 px-4'}>
+    <div className={'pt-6 xl:px-64 lg:px-52 md:px-20 sm:px-6 px-1'}>
       <DateList/>
     </div>
   );
