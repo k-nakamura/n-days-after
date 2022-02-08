@@ -73,7 +73,7 @@ function AfterDateList({strDate}) {
   }
 
   return (
-    <div className={'pt-6 px-96'}>
+    <div className={'pt-6 xl:px-64 lg:px-52 md:px-20 sm:px-6 px-4'}>
       <DateList/>
     </div>
   );
